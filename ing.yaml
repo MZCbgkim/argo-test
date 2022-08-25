@@ -4,7 +4,6 @@ metadata:
   name: minimal-ingress
   annotations:
 	kubernetes.io/ingress.class: gce-internal
-    kubernetes.io/ingress.regional-static-ip-name: test-ip 
 spec:
   ingressClassName: nginx-example
   rules:
